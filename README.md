@@ -38,9 +38,9 @@
 <a href="https://codeforces.com/profile/al_goodman13">
   <img src="https://img.shields.io/badge/Codeforces%20(alt)-al__goodman13-1E7D22?style=for-the-badge&logo=codeforces&logoColor=white"/>
 </a>
-<a href="https://leetcode.com/uthred_ragnarson">
+<!-- <a href="https://leetcode.com/uthred_ragnarson">
   <img src="https://img.shields.io/badge/LeetCode-130%2B%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
+</a> -->
 <a href="https://www.codechef.com/">
   <img src="https://img.shields.io/badge/CodeChef-100%2B%20solved-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
 </a>
