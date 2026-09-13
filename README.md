@@ -255,7 +255,7 @@ Proposes an interpretable IoT intrusion-detection framework using genetic featur
 
 Curious about the full picture? Click below to view my complete CV.
 
-<a href="https://github.com/Hossain-Altaf/Hossain-Altaf/blob/main/assets/Altaf_Hossain_CV.pdf">
+<a href="https://github.com/Hossain-Altaf/Hossain-Altaf/blob/main/assets/MD_Altaf_Hossain_CV(12).pdf">
   <img src="https://img.shields.io/badge/📄%20View%20My%20Full%20CV-58A6FF?style=for-the-badge&logo=readdotcv&logoColor=white"/>
 </a>
 
