@@ -2,6 +2,47 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=220&section=header&text=Hi%20There!%20I'm%20Altaf%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Software%20Engineering%20Student%20%40%20SUST%20%7C%20MERN%20%2B%20Flutter%20%7C%20ML%2FDL%20Explorer&descAlignY=55&descSize=16" width="100%"/>
 
+<br/>
+
+<!-- Animated photo: rotating gradient ring + pulsing glow + floating bob -->
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="120" cy="120" r="90"/>
+    </clipPath>
+  </defs>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3s" repeatCount="indefinite"/>
+
+    <!-- Pulsing outer glow -->
+    <circle cx="120" cy="120" r="98" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="96;108;96" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.05;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Rotating gradient ring -->
+    <circle cx="120" cy="120" r="102" fill="none" stroke="url(#ringGradient)" stroke-width="5" stroke-dasharray="480 220" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Second counter-rotating thin ring for extra depth -->
+    <circle cx="120" cy="120" r="94" fill="none" stroke="#58A6FF" stroke-width="1.5" stroke-dasharray="30 40" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="360 120 120" to="0 120 120" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Photo -->
+    <image href="https://raw.githubusercontent.com/Hossain-Altaf/Hossain-Altaf/main/profile.png" x="30" y="30" width="180" height="180" clip-path="url(#circleClip)"/>
+  </g>
+</svg>
+
+<br/>
+
 <a href="https://github.com/Hossain-Altaf">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&width=750&lines=Full-Stack+Developer+%7C+MERN+%2B+Flutter;Machine+Learning+%2F+Deep+Learning+Explorer;AI+%26+IoT+Intrusion+Detection+Research;Competitive+Programmer+%40+Codeforces;850%2B+Problems+Solved+Across+Judges;Building+Real-Time%2C+Production-Style+Apps" alt="Typing SVG"/>
 </a>
